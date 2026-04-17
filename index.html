@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Donald</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;600&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+    </style>
+</head>
+<body class="bg-[#0f172a] text-slate-400 leading-relaxed">
+
+    <main class="max-w-3xl mx-auto px-6 py-20">
+        
+        <header class="mb-20">
+            <h1 class="text-4xl font-bold text-slate-100 mono mb-2">Mac Donald</h1>
+            <p class="text-cyan-400 mono text-sm mb-6">// Computer Engineer</p>
+            <div class="flex flex-wrap gap-x-6 gap-y-2 text-[13px] mono text-slate-500">
+                <span class="flex items-center gap-2 text-slate-300">
+                    <span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> 
+                    Open to work / collaborate
+                </span>
+                <div class="flex flex-wrap gap-x-5 gap-y-2 text-[13px] mono">
+                    <a href="mailto:nolimitmacdonald@gmail.com" class="text-slate-200 hover:text-cyan-400 transition-colors">nolimitmacdonald@gmail.com</a>
+                    <span class="text-slate-700">/</span>
+                    <a href="https://x.com/noolimitmac" class="text-slate-200 hover:text-cyan-400 transition-colors">x.com/noolimitmac</a>
+                    <span class="text-slate-700">/</span>
+                    <a href="https://instagram.com/nolimitmac" class="text-slate-200 hover:text-cyan-400 transition-colors">ig: nolimitmac</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="mb-20">
+            <div class="space-y-6 text-[15px]">
+                <p>
+                    I'm Mac Donald, a computer engineering graduate based in Nigeria. I build fullstack projects, but I'll be honest, I'm not the "flashy design" guy. I prefer the work that happens under the hood. I like thinking through systems, backend logic, and solving problems that actually require some out-of-the-box thinking.
+                </p>
+                <p>
+                    Most of my experience comes from freelancing. People usually hire me as the primary developer to build their projects from scratch and handle everything right up until deployment. I'm used to owning the whole process, but I'm also a pretty chill guy to work with if you've got a team that needs an extra hand ✌️.
+                </p>
+                <p>
+                    I have a big interest in AI and research opportunities. When I'm not at my desk, I'm usually playing basketball or stuck on a competitive programming challenge.
+                </p>
+            </div>
+        </section>
+
+        <section class="mb-20">
+            <h2 class="text-slate-100 font-medium mb-8 mono text-sm uppercase tracking-widest">// Tools & Languages</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-y-4 text-[14px] mono">
+                <div class="space-y-2">
+                    <p class="text-slate-500 font-bold text-[11px] mb-4">CORE</p>
+                    <p>Java</p>
+                    <p>Python</p>
+                    <p>C++</p>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-slate-500 font-bold text-[11px] mb-4">WEB/INFRA</p>
+                    <p>JS / TS</p>
+                    <p>React</p>
+                    <p>AWS</p>
+                </div>
+                <div class="space-y-2 text-slate-500">
+                    <p class="text-slate-500 font-bold text-[11px] mb-4">OTHER</p>
+                    <p>HTML/CSS</p>
+                    <p>Tailwind</p>
+                    <p>Git</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-20">
+            <h2 class="text-slate-100 font-medium mb-10 mono text-sm uppercase tracking-widest">// Selected Work</h2>
+            
+            <div class="space-y-24">
+                
+                <div class="group">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-6 gap-4">
+                        <h3 class="text-xl font-semibold text-slate-100 group-hover:text-cyan-400 transition-colors">
+                            Canvas Whiteboard Engine
+                        </h3>
+                        <div class="flex gap-2">
+                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">React</span>
+                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">TypeScript</span>
+                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">Fabric.js</span>
+                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">FastApi</span>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-8">
+                        <div class="max-w-2xl space-y-4 text-[15px]">
+                            <p>
+                                I built a custom canvas-based whiteboard library specifically for educational environments. It handles real-time drawing, object manipulation, and state persistence for remote teaching.
+                            </p>
+                            <p>
+                                This engine serves as a core feature for <a href="https://elms.ng" class="text-cyan-500 hover:underline">elms.ng</a>, **supporting hundreds of students** in live lecture environments. I handled the architecture from the ground up, ensuring synchronized state across different user roles.
+                            </p>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <div class="overflow-hidden rounded border border-slate-800 bg-slate-900 shadow-lg">
+                                    <img src="assets/online-learning-ins.png" alt="Instructor View" class="opacity-70 group-hover:opacity-100 transition-opacity duration-500">
+                                </div>
+                                <p class="text-[10px] mono text-slate-600 uppercase tracking-tighter">View: Instructors // write_access</p>
+                            </div>
+                            
+                            <div class="space-y-2">
+                                <div class="overflow-hidden rounded border border-slate-800 bg-slate-900 shadow-lg">
+                                    <img src="assets/online-learning-std.png" alt="Student View" class="opacity-70 group-hover:opacity-100 transition-opacity duration-500">
+                                </div>
+                                <p class="text-[10px] mono text-slate-600 uppercase tracking-tighter">View: Students // read_sync</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-6 gap-4">
+                        <h3 class="text-xl font-semibold text-slate-100 group-hover:text-cyan-400 transition-colors">
+                            Structured Document Editor
+                        </h3>
+                        <div class="flex gap-2">
+                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">ProseMirror</span>
+                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">React</span>
+                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">Node.js</span>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+                        <div class="space-y-4 text-[15px]">
+                            <p>
+                                A rich-text editing system built using ProseMirror for complex document structuring. Unlike standard editors, this was designed to handle specific data schemas required for academic content management.
+                            </p>
+                            <p>
+                                Like the whiteboard, this was developed as a standalone system and is currently used by <a href="https://elms.ng" class="text-cyan-500 hover:underline">elms.ng</a> for internal document processing and content creation.
+                            </p>
+                        </div>
+
+                        <div class="relative">
+                            <div class="overflow-hidden rounded-md border border-slate-800 bg-slate-900 shadow-xl">
+                                <img src="assets/online-document-editor.png" alt="Document Editor" class="opacity-70 group-hover:opacity-100 transition-opacity duration-500">
+                            </div>
+                            <p class="mt-2 text-[10px] mono text-slate-600 uppercase text-right">Ref: sys_editor_core</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="mt-32 pb-5 border-t border-slate-800/50 pt-10">
+            <div class="flex flex-col items-center justify-center text-center mono text-[12px] text-slate-500 space-y-3">
+                <p class="text-slate-300">UNTIL THE END 💪</p>
+                
+                <div class="space-y-1">
+                    <p>Designed and coded by Mac Donald</p>
+                    <p>© 2026 // nolimitmark.github.io</p>
+                    <p class="text-slate-700 uppercase tracking-widest text-[10px]">Built with HTML / Tailwind / Logic</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
