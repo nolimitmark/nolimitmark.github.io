@@ -1,182 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mark Agugo</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;600&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-        .mono { font-family: 'JetBrains Mono', monospace; }
-    </style>
-</head>
-<body class="bg-[#0f172a] text-slate-400 leading-relaxed">
-
-    <main class="max-w-3xl mx-auto px-6 py-20">
+    <head>
+        <meta charset="UTF-8">
         
-        <header class="mb-20">
-            <h1 class="text-4xl font-bold text-slate-100 mono mb-2">Mark Agugo</h1>
-            <p class="text-cyan-400 mono text-sm mb-6">// Computer Engineer</p>
-            <div class="flex flex-wrap gap-x-6 gap-y-2 text-[13px] mono text-slate-500">
-                <span class="flex items-center gap-2 text-slate-300">
-                    <span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> 
-                    Open to work / collaborate
-                </span>
-                <div class="flex flex-wrap items-center gap-4 text-xs font-mono">
-                    <a href="mailto:markagugo@gmail.com" target="_blank" class="flex items-center space-x-2 px-3 py-2 rounded bg-brand-card border border-brand-border hover:border-brand-accent hover:text-brand-accent transition-colors text-slate-300">
-                        <svg class="w-4 h-4 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 002-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                        <span>markagugo@gmail.com</span>
-                    </a>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Mark Agugo</title>
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;600&display=swap');
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+            .mono {
+                font-family: 'JetBrains Mono', monospace;
+            }
+        </style>
+    </head>
 
-                    <a href="https://linkedin.com/in/markagugo" target="_blank" class="flex items-center space-x-2 px-3 py-2 rounded bg-brand-card border border-brand-border hover:border-brand-accent hover:text-brand-accent transition-colors text-slate-300">
-                        <svg class="w-4 h-4 text-brand-accent" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
-                        <span>markagugo</span>
-                    </a>
+    <body class="bg-[#0f172a] text-slate-400 leading-relaxed">
+        <main class="max-w-3xl mx-auto px-6 py-20">
+            <header class="mb-20">
+                <h1 class="text-4xl font-bold text-slate-100 mono mb-2">
+                    Mark Agugo
+                </h1>
 
-                    <a href="https://x.com/noolimitmac" target="_blank" class="flex items-center space-x-2 px-3 py-2 rounded bg-brand-card border border-brand-border hover:border-brand-accent hover:text-brand-accent transition-colors text-slate-300">
-                        <svg class="w-4 h-4 text-brand-accent" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                        <span>noolimitmac</span>
-                    </a>
-
-                    <a href="https://instagram.com/nolimitmac" target="_blank" class="flex items-center space-x-2 px-3 py-2 rounded bg-brand-card border border-brand-border hover:border-brand-accent hover:text-brand-accent transition-colors text-slate-300">
-                        <svg class="w-4 h-4 text-brand-accent" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                        <span>nolimitmac</span>
-                    </a>
-                </div>
-            </div>
-        </header>
-
-        <section class="mb-20">
-            <div class="space-y-6 text-[15px]">
-                <p>
-                    I'm Mark Agugo, a computer engineering graduate (2026) based in Nigeria. I build full-stack applications with a strong focus on the backend and system-level logic. I like thinking through systems, backend logic, and solving problems that actually require some out-of-the-box thinking.
+                <p class="text-cyan-400 mono text-sm mb-6">
+                    // Computer Engineer
                 </p>
-                <p>
-                    Most of my experience comes from freelancing, where I’ve worked as the primary developer, building projects from scratch and taking them all the way to deployment. I’m used to owning the entire process, and I collaborate well when working within a team.
-                </p>
-                <p>
-                    I’m interested in AI, research, full-stack development, and technical writing. When I’m not building systems, I’m usually playing basketball or solving competitive programming problems.
-                </p>
-            </div>
-        </section>
 
-        <section class="mb-20">
-            <h2 class="text-slate-100 font-medium mb-8 mono text-sm uppercase tracking-widest">// Tools & Languages</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-3 gap-y-4 text-[14px] mono">
-                <div class="space-y-2">
-                    <p class="text-slate-500 font-bold text-[11px] mb-4">CORE</p>
-                    <p>Java</p>
-                    <p>Python</p>
-                    <p>C++</p>
-                </div>
-                <div class="space-y-2">
-                    <p class="text-slate-500 font-bold text-[11px] mb-4">WEB/INFRA</p>
-                    <p>JS / TS</p>
-                    <p>React</p>
-                    <p>AWS</p>
-                </div>
-                <div class="space-y-2 text-slate-500">
-                    <p class="text-slate-500 font-bold text-[11px] mb-4">OTHER</p>
-                    <p>HTML/CSS</p>
-                    <p>Tailwind</p>
-                    <p>Git</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="mb-20">
-            <h2 class="text-slate-100 font-medium mb-10 mono text-sm uppercase tracking-widest">// Selected Projects</h2>
-            
-            <div class="space-y-24">
-                
-                <div class="group">
-                    <div class="flex flex-col md:flex-row justify-between items-start mb-6 gap-4">
-                        <h3 class="text-xl font-semibold text-slate-100 group-hover:text-cyan-400 transition-colors">
-                            Canvas Whiteboard Engine
-                        </h3>
-                        <div class="flex gap-2">
-                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">React</span>
-                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">TypeScript</span>
-                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">Fabric.js</span>
-                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">FastApi</span>
-                        </div>
-                    </div>
+                <div class="flex flex-wrap gap-x-6 gap-y-2 text-[13px] mono text-slate-500">
+                    <span class="flex items-center gap-2 text-slate-300">
+                        <span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
+                        Open to work / collaborate
+                    </span>
                     
-                    <div class="space-y-8">
-                        <div class="max-w-2xl space-y-4 text-[15px]">
-                            <p>
-                                I built a custom canvas-based whiteboard library specifically for educational environments. It handles real-time drawing, object manipulation, and state persistence for remote teaching.
-                            </p>
-                            <p>
-                                This engine serves as a core feature for <a href="https://elms.ng" class="text-cyan-500 hover:underline">elms.ng</a>, **supporting hundreds of students** in live lecture environments. I handled the architecture from the ground up, ensuring synchronized state across different user roles.
-                            </p>
-                        </div>
+                    <div class="flex flex-wrap items-center gap-4 text-xs font-mono">
+                        <a href="mailto:markagugo@gmail.com" target="_blank" class="flex items-center space-x-2 px-3 py-2 rounded bg-brand-card border border-brand-border hover:border-brand-accent hover:text-brand-accent transition-colors text-slate-300">
+                            <svg class="w-4 h-4 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 002-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            <span>markagugo@gmail.com</span>
+                        </a>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div class="space-y-2">
-                                <div class="overflow-hidden rounded border border-slate-800 bg-slate-900 shadow-lg">
-                                    <img src="assets/online-learning-ins.png" alt="Instructor View" class="opacity-70 group-hover:opacity-100 transition-opacity duration-500">
-                                </div>
-                                <p class="text-[10px] mono text-slate-600 uppercase tracking-tighter">View: Instructors // write_access</p>
+                        <a href="https://linkedin.com/in/markagugo" target="_blank" class="flex items-center space-x-2 px-3 py-2 rounded bg-brand-card border border-brand-border hover:border-brand-accent hover:text-brand-accent transition-colors text-slate-300">
+                            <svg class="w-4 h-4 text-brand-accent" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                            <span>markagugo</span>
+                        </a>
+
+                        <a href="https://x.com/noolimitmac" target="_blank" class="flex items-center space-x-2 px-3 py-2 rounded bg-brand-card border border-brand-border hover:border-brand-accent hover:text-brand-accent transition-colors text-slate-300">
+                            <svg class="w-4 h-4 text-brand-accent" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            <span>noolimitmac</span>
+                        </a>
+
+                        <a href="https://instagram.com/nolimitmac" target="_blank" class="flex items-center space-x-2 px-3 py-2 rounded bg-brand-card border border-brand-border hover:border-brand-accent hover:text-brand-accent transition-colors text-slate-300">
+                            <svg class="w-4 h-4 text-brand-accent" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                            <span>nolimitmac</span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            
+            <section class="mb-20">
+                <div class="space-y-6 text-[15px]">
+                    <p>
+                        I'm Mark Agugo, a computer engineering graduate based in Nigeria.
+                        I build full-stack applications with a strong focus on backend and
+                        system-level logic. I like thinking through systems and solving
+                        problems that actually require some out-of-the-box thinking.
+                    </p>
+
+                    <p>
+                        Most of my experience comes from building projects from scratch.
+                        I'm comfortable taking an idea from the initial problem through
+                        architecture, implementation, deployment, and figuring out what
+                        breaks along the way.
+                    </p>
+
+                    <p>
+                        I'm interested in AI, research, full-stack development, and
+                        technical systems. When I'm not building something, I'm usually
+                        solving competitive programming problems.
+                    </p>
+                </div>
+            </section>
+
+            
+            <section class="mb-20">
+                <h2 class="text-slate-100 font-medium mb-8 mono text-sm uppercase tracking-widest">
+                    // Tools & Languages
+                </h2>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-y-4 text-[14px] mono">
+                    <div class="space-y-2">
+                        <p class="text-slate-500 font-bold text-[11px] mb-4">
+                            CORE
+                        </p>
+                        <p>Java</p>
+                        <p>Python</p>
+                        <p>C++</p>
+                    </div>
+
+                    <div class="space-y-2">
+                        <p class="text-slate-500 font-bold text-[11px] mb-4">
+                            WEB / INFRA
+                        </p>
+                        <p>JS / TS</p>
+                        <p>React</p>
+                        <p>AWS</p>
+                    </div>
+
+                    <div class="space-y-2">
+                        <p class="text-slate-500 font-bold text-[11px] mb-4">
+                            OTHER
+                        </p>
+                        <p>HTML / CSS</p>
+                        <p>Tailwind</p>
+                        <p>Git</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="mb-20">
+                <h2 class="text-slate-100 font-medium mb-10 mono text-sm uppercase tracking-widest">
+                    // Selected Work
+                </h2>
+
+                <div class="space-y-24">
+                    <div class="group">
+                        <div class="flex flex-col md:flex-row justify-between items-start mb-6 gap-4">
+                            <div>
+                                <h3 class="text-xl font-semibold text-slate-100 group-hover:text-cyan-400 transition-colors">
+                                    ELMS
+                                </h3>
+                                <p class="mono text-[11px] text-slate-500 mt-1">
+                                    Education Platform // Built from scratch
+                                </p>
+                            </div>
+
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">
+                                    React
+                                </span>
+
+                                <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">
+                                    TypeScript
+                                </span>
+
+                                <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">
+                                    FastAPI
+                                </span>
+
+                                <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">
+                                    PostgreSQL
+                                </span>
+
+                                <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">
+                                    AWS
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="space-y-8">
+                            <div class="max-w-2xl space-y-4 text-[15px]">
+                                <p>
+                                    ELMS is an education platform I built from scratch for
+                                    lecturers and students. I handled the architecture,
+                                    frontend, backend, database, infrastructure, and the
+                                    custom systems that power the platform.
+                                </p>
+                                <p>
+                                    Rather than relying entirely on existing third-party
+                                    tools, I built several core parts of the experience
+                                    myself, including the live classroom system, real-time
+                                    whiteboard, and structured document editor.
+                                </p>
                             </div>
                             
-                            <div class="space-y-2">
-                                <div class="overflow-hidden rounded border border-slate-800 bg-slate-900 shadow-lg">
-                                    <img src="assets/online-learning-std.png" alt="Student View" class="opacity-70 group-hover:opacity-100 transition-opacity duration-500">
+                            <div class="space-y-8">
+                                <div class="border-l border-slate-700 pl-5">
+                                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                                        <h4 class="text-slate-200 font-medium">
+                                            Live Classroom
+                                        </h4>
+                                        <span class="mono text-[10px] text-slate-600 uppercase">
+                                            real-time system
+                                        </span>
+                                    </div>
+
+                                    <p class="text-[14px] max-w-2xl">
+                                        I built the live meeting experience used for remote
+                                        lectures and integrated the custom whiteboard directly
+                                        into the classroom. The system handles real-time
+                                        communication between lecturers and students while
+                                        keeping the classroom state synchronized.
+                                    </p>
+
+                                    <div class="mt-6">
+                                        <div class="relative w-full aspect-video rounded-lg overflow-hidden border border-slate-800 bg-slate-900">
+                                            <iframe
+                                                class="absolute inset-0 w-full h-full"
+                                                src="https://www.youtube.com/embed/LZlfvm4PUvw"
+                                                title="ELMS Live Classroom Preview"
+                                                frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen
+                                            ></iframe>
+                                        </div>
+
+                                        <p class="mono text-[11px] text-slate-500 mt-2">
+                                            Live classroom preview
+                                        </p>
+                                    </div>
                                 </div>
-                                <p class="text-[10px] mono text-slate-600 uppercase tracking-tighter">View: Students // read_sync</p>
+
+                                <div class="border-l border-slate-700 pl-5">
+                                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                                        <h4 class="text-slate-200 font-medium">
+                                            Canvas Whiteboard Engine
+                                        </h4>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="text-[10px] mono text-slate-500">
+                                                React
+                                            </span>
+                                            <span class="text-[10px] mono text-slate-500">
+                                                TypeScript
+                                            </span>
+                                            <span class="text-[10px] mono text-slate-500">
+                                                Fabric.js
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <p class="text-[14px] max-w-2xl">
+                                        A custom canvas-based whiteboard built specifically
+                                        for educational environments. It supports drawing,
+                                        object manipulation, real-time synchronization and
+                                        state persistence.
+                                    </p>
+
+                                    <p class="text-[14px] max-w-2xl mt-3">
+                                        One of the problems I had to solve was preserving
+                                        the whiteboard state when users refreshed or
+                                        reconnected. I introduced a state layer that could
+                                        restore the latest state before continuing the
+                                        real-time update flow.
+                                    </p>
+
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                                        <div class="space-y-2">
+                                            <div class="overflow-hidden rounded border border-slate-800 bg-slate-900 shadow-lg">
+                                                <img
+                                                    src="assets/online-learning-ins.png"
+                                                    alt="Instructor view of ELMS live classroom"
+                                                    class="opacity-70 group-hover:opacity-100 transition-opacity duration-500"
+                                                >
+                                            </div>
+                                            <p class="text-[10px] mono text-slate-600 uppercase tracking-tighter">
+                                                View: Instructors // write_access
+                                            </p>
+                                        </div>
+                                    
+                                        <div class="space-y-2">
+                                            <div class="overflow-hidden rounded border border-slate-800 bg-slate-900 shadow-lg">
+                                                <img
+                                                    src="assets/online-learning-std.png"
+                                                    alt="Student view of ELMS live classroom"
+                                                    class="opacity-70 group-hover:opacity-100 transition-opacity duration-500"
+                                                >
+                                            </div>
+
+                                            <p class="text-[10px] mono text-slate-600 uppercase tracking-tighter">
+                                                View: Students // read_sync
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="border-l border-slate-700 pl-5">
+                                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                                        <h4 class="text-slate-200 font-medium">
+                                            Structured Document Editor
+                                        </h4>
+
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="text-[10px] mono text-slate-500">
+                                                ProseMirror
+                                            </span>
+                                        
+                                            <span class="text-[10px] mono text-slate-500">
+                                                React
+                                            </span>
+                                    </div>
+
+                                    </div>
+                                        <p class="text-[14px] max-w-2xl">
+                                            A structured document editor built with ProseMirror
+                                            for academic content. I built it as a standalone
+                                            system because the platform needed more control over
+                                            document structure than a standard rich-text editor
+                                            could provide.
+                                        </p>
+                                        <div class="relative mt-6">
+                                            <div class="overflow-hidden rounded-md border border-slate-800 bg-slate-900 shadow-xl">
+                                                <img
+                                                    src="assets/online-document-editor.png"
+                                                    alt="ELMS structured document editor"
+                                                    class="opacity-70 group-hover:opacity-100 transition-opacity duration-500"
+                                                >
+                                        </div>
+                                            <p class="mt-2 text-[10px] mono text-slate-600 uppercase text-right">
+                                                Ref: sys_editor_core
+                                            </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="border-l border-slate-700 pl-5">
+                                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                                        <h4 class="text-slate-200 font-medium">
+                                            Backend & Infrastructure
+                                        </h4>
+
+                                        <span class="mono text-[10px] text-slate-600 uppercase">
+                                            system architecture
+                                        </span>
+                                    </div>
+
+                                    <p class="text-[14px] max-w-2xl">
+                                        I built and deployed the backend APIs and supporting
+                                        infrastructure, including PostgreSQL, AWS EC2,
+                                        S3 and CloudFront. I also handled the integration
+                                        between the different systems that make up the
+                                        platform.
+                                    </p>
+                                </div>
+
+                                </div>
+                                    <div class="pt-2">
+                                        <a
+                                            href="https://elms.ng"
+                                            target="_blank"
+                                            class="mono text-xs text-cyan-500 hover:text-cyan-400 hover:underline"
+                                        >
+                                            → elms.ng
+                                        </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="group">
-                    <div class="flex flex-col md:flex-row justify-between items-start mb-6 gap-4">
-                        <h3 class="text-xl font-semibold text-slate-100 group-hover:text-cyan-400 transition-colors">
-                            Structured Document Editor
-                        </h3>
-                        <div class="flex gap-2">
-                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">ProseMirror</span>
-                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">React</span>
-                            <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">Node.js</span>
-                        </div>
-                    </div>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
-                        <div class="space-y-4 text-[15px]">
-                            <p>
-                                A rich-text editing system built using ProseMirror for complex document structuring. Unlike standard editors, this was designed to handle specific data schemas required for academic content management.
-                            </p>
-                            <p>
-                                Like the whiteboard, this was developed as a standalone system and is currently used by <a href="https://elms.ng" class="text-cyan-500 hover:underline">elms.ng</a> for internal document processing and content creation.
-                            </p>
-                        </div>
-
-                        <div class="relative">
-                            <div class="overflow-hidden rounded-md border border-slate-800 bg-slate-900 shadow-xl">
-                                <img src="assets/online-document-editor.png" alt="Document Editor" class="opacity-70 group-hover:opacity-100 transition-opacity duration-500">
+                        <div class="group">
+                            <div class="flex flex-col md:flex-row justify-between items-start mb-6 gap-4">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-slate-100 group-hover:text-cyan-400 transition-colors">
+                                        Technical Research & Documentation
+                                    </h3>
+                                    <p class="mono text-[11px] text-slate-500 mt-1">
+                                        Systems analysis // Technical writing
+                                    </p>
                             </div>
-                            <p class="mt-2 text-[10px] mono text-slate-600 uppercase text-right">Ref: sys_editor_core</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">
+                                        Research
+                                    </span>
+                                    <span class="text-[11px] mono text-slate-400 bg-slate-800/40 px-2 py-1 rounded border border-slate-700/50">
+                                        Documentation
+                                    </span>
+                            </div>
+                        </div>
+
+                        <div class="space-y-5 text-[15px] max-w-2xl">
+                            <p>
+                                I’ve worked on technical research projects that involved
+                                understanding unfamiliar systems from the code itself, tracing
+                                dependencies and documenting how the architecture, roles and
+                                core logic fit together.
+                            </p>
+                            <p>
+                                I also maintain a collection of data structures, algorithms and
+                                problem-solving notes from my competitive programming work,
+                                originally written for my technical blog.
+                            </p>
+                        </div>
+                        
+                        <div class="flex flex-wrap gap-5 mt-6">
+                            <a
+                                href="https://github.com/nolimitmark/contract_docs"
+                                target="_blank"
+                                class="mono text-xs text-cyan-500 hover:text-cyan-400 hover:underline"
+                            >
+                                → contract research
+                            </a>
+                            <a
+                                href="https://github.com/nolimitmark/dsa"
+                                target="_blank"
+                                class="mono text-xs text-cyan-500 hover:text-cyan-400 hover:underline"
+                            >
+                                → DSA notes
+                            </a>
                         </div>
                     </div>
                 </div>
+            </section>
 
-            </div>
-        </section>
+            <footer class="mt-32 pb-5 border-t border-slate-800/50 pt-10">
+                <div class="flex flex-col items-center justify-center text-center mono text-[12px] text-slate-500 space-y-3">
+                    <p class="text-slate-300">
+                        UNTIL THE END 💪
+                    </p>
 
-        <footer class="mt-32 pb-5 border-t border-slate-800/50 pt-10">
-            <div class="flex flex-col items-center justify-center text-center mono text-[12px] text-slate-500 space-y-3">
-                <p class="text-slate-300">UNTIL THE END 💪</p>
-                
-                <div class="space-y-1">
-                    <p>Designed and coded by Mark Agugo</p>
-                    <p>© 2026 // nolimitmark.github.io</p>
-                    <p class="text-slate-700 uppercase tracking-widest text-[10px]">Built with HTML / Tailwind</p>
+                    <div class="space-y-1">
+                        <p>
+                            © 2026 // nolimitmark.github.io
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </footer>
-    </main>
-
-</body>
+            </footer>
+        </main>
+    </body>
 </html>
